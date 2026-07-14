@@ -1,0 +1,147 @@
+{
+  "name": "Dark Fintech Report",
+  "dataColors": [
+    "#17B8A6",
+    "#E4633F",
+    "#E8A93B",
+    "#6FA98C",
+    "#4A90A4",
+    "#C0392B",
+    "#8FD4C8",
+    "#A0785A"
+  ],
+  "background": "#12181C",
+  "foreground": "#F4F5F3",
+  "tableAccent": "#17B8A6",
+  "good": "#17B8A6",
+  "bad": "#E4633F",
+  "neutral": "#E8A93B",
+  "maximum": "#17B8A6",
+  "center": "#6FA98C",
+  "minimum": "#1B242B",
+  "null": "#5A6570",
+  "textClasses": {
+    "title": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 14,
+      "color": "#F4F5F3"
+    },
+    "header": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 11,
+      "color": "#17B8A6"
+    },
+    "label": {
+      "fontFace": "Segoe UI",
+      "fontSize": 9,
+      "color": "#C7CDD1"
+    },
+    "callout": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 28,
+      "color": "#17B8A6"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#1B242B" } },
+            "transparency": 0,
+            "show": true
+          }
+        ],
+        "border": [
+          {
+            "show": true,
+            "color": { "solid": { "color": "#2A343B" } },
+            "radius": 8
+          }
+        ],
+        "title": [
+          {
+            "fontColor": { "solid": { "color": "#F4F5F3" } },
+            "fontSize": 12,
+            "bold": true
+          }
+        ],
+        "categoryAxis": [
+          {
+            "gridlineColor": { "solid": { "color": "#2A343B" } },
+            "labelColor": { "solid": { "color": "#C7CDD1" } },
+            "fontSize": 9
+          }
+        ],
+        "valueAxis": [
+          {
+            "gridlineColor": { "solid": { "color": "#2A343B" } },
+            "labelColor": { "solid": { "color": "#C7CDD1" } },
+            "fontSize": 9
+          }
+        ],
+        "legend": [
+          {
+            "labelColor": { "solid": { "color": "#F4F5F3" } },
+            "fontSize": 9
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "labels": [
+          {
+            "color": { "solid": { "color": "#17B8A6" } },
+            "fontSize": 28,
+            "fontFamily": "Segoe UI Semibold"
+          }
+        ],
+        "categoryLabels": [
+          {
+            "color": { "solid": { "color": "#C7CDD1" } },
+            "fontSize": 11
+          }
+        ]
+      }
+    },
+    "tableEx": {
+      "*": {
+        "columnHeaders": [
+          {
+            "fontColor": { "solid": { "color": "#12181C" } },
+            "backColor": { "solid": { "color": "#17B8A6" } },
+            "bold": true,
+            "fontSize": 9
+          }
+        ],
+        "values": [
+          {
+            "fontColorPrimary": { "solid": { "color": "#F4F5F3" } },
+            "backColorPrimary": { "solid": { "color": "#1B242B" } },
+            "backColorSecondary": { "solid": { "color": "#212B33" } },
+            "fontSize": 9
+          }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "items": [
+          {
+            "fontColor": { "solid": { "color": "#F4F5F3" } },
+            "background": { "solid": { "color": "#1B242B" } }
+          }
+        ],
+        "header": [
+          {
+            "fontColor": { "solid": { "color": "#12181C" } },
+            "background": { "solid": { "color": "#17B8A6" } },
+            "fontSize": 10,
+            "show": true
+          }
+        ]
+      }
+    }
+  }
+}
